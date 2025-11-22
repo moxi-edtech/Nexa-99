@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Runtime data
+*.c?js
+*.m?js
+*.d.ts
+*.local
+*.nexe
+.env
+.npm
+.pnpm
+.pnpm-store
+.pnpm-state.json
+.pnpm-workspace.yaml
+.eslintcache
+
+# Dependency directories
+node_modules/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Other
+coverage/
+*.tgz
+.npmrc
+.yarn/
+.yarn-integrity
+.cache/
+.next/
+.nuxt/
+.parcel-cache/
+.svelte-kit/
+.vite/
+
+# PNPM
+/pnpm-lock.yaml

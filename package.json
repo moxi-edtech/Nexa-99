@@ -1,0 +1,16 @@
+{
+  "name": "moxi-nexa-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm run --filter web dev",
+    "build": "pnpm run --filter web build",
+    "ui:dev": "pnpm run --filter ui dev",
+    "ui:build": "pnpm run --filter ui build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
